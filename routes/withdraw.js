@@ -1,5 +1,4 @@
 const express=require('express')
-const { trusted } = require('mongoose')
 const route=express.Router()
 const {verifyToken}=require('../controllers/authenticate')
 const database=require('../model/schema')
